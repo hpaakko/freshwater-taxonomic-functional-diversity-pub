@@ -1,0 +1,3 @@
+# Write description and list all files
+
+writeLines(c("SESSION NAME", sesname, "", "DESCRIPTION", sesdes, "", "SYSTEM TIME", capture.output(atime), "", "WORK DIRECTORY", getwd(), list.files(full.names=TRUE), "", "CURRENT OUTPUT DIRECTORY", paste(getwd(), "/", sdir, sep=""), paste(getwd(), "/", sdirfigs, sep=""), "", "", "LIST OF DIRECTORIES OR FILES", "./data", list.files("data/"), "", "./R", list.files("R/"), "", "", paste("SESSION: ", sesname, sep=""), paste("./", sdir, sep=""), list.files(sdir), "", paste("./", sdirfigs, sep=""), list.files(sdirfigs), "", "./doc", list.files("doc/"), "", "","LIST OF ALL output FILE of SESSION", list.files(sdir, full.names=TRUE, recursive = TRUE)), paste(sdir, "SessionReadMe.txt", sep=""))
