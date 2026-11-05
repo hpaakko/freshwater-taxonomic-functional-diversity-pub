@@ -4,7 +4,7 @@
 
 This repository contains the main analysis code required to reproduce the analyses, figures, and tables presented in:
 
-> Pääkkö, H., et al. (in review). *Functional consequences of freshwater biodiversity change depend on ecosystem type*. Journal of Applied Ecology.
+> Pääkkö, H., et al. (in review). *Functional consequences of freshwater biodiversity change depend on ecosystem type*.
 
 ## Repository Structure
 
@@ -51,12 +51,12 @@ If you use the code or data from this repository, please cite:
 
 ```text
 Pääkkö, H., et al. (in review).
-[Full manuscript citation]
+*Functional consequences of freshwater biodiversity change depend on ecosystem type*.
 ```
 
 ## License
 
-Specify repository license here (e.g., MIT License, GPL-3.0, CC BY 4.0).
+MIT License
 
 ## Contact
 
